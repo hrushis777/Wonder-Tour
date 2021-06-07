@@ -155,3 +155,27 @@ sub { bottom: -.25em; }
   font-style: normal;
   font-weight: bold;
 }
+/*Common styling starts*/
+* { box-sizing: border-box; }
+.container { width: 100%; }
+li { list-style-type: none; }
+
+a {
+  outline: none;
+  text-decoration: none;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  max-width: 1400px;
+  width: 89.8%;
+  margin: 0 auto;
+}
+/*Common styling ends*/
