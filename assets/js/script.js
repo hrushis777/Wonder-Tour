@@ -207,7 +207,7 @@ $(document).ready(function ($) {
     $('.counter').each(function () {
       var $this = $(this),
         countTo = $this.attr('data-count');
-      ended = $this.attr('ended');
+        ended = $this.attr('ended');
 
       if (ended != 'true' && isScrolledIntoView($this)) {
         $({ countNum: $this.text() }).animate(
